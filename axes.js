@@ -49,7 +49,7 @@ export const axes = (
     .attr('alignment-baseline', 'hanging')
     .attr('text-anchor', 'middle')
     .attr('font-family', 'sans-serif')
-    .attr('font-size', "7vw")
+    .attr('font-size', "2vw")
     .text(xAxisLabel);
 
   selection
@@ -68,6 +68,6 @@ export const axes = (
       'y',
       xScale.range()[0] - yAxisLabelOffset
     )
-    .attr('font-size', "8vw")
+    .attr('font-size', "3vw")
     .text(yAxisLabel);
 };
