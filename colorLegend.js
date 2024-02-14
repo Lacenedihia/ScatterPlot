@@ -28,11 +28,11 @@ export const colorLegend = (
     .selectAll('text.color-legend-label')
     .data([null])
     .join('text')
-    .attr('x', colorLegendLabelX - 10)
+    .attr('x', colorLegendLabelX - 12)
     .attr('y', colorLegendLabelY - 15)
     .attr('class', 'color-legend-label')
     .attr('font-family', 'sans-serif')
-    .attr('font-size', "4.4vw")
+    .attr('font-size', "4vw")
     .text(colorLegendLabel);
 
   colorLegendG
