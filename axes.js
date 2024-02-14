@@ -8,7 +8,7 @@ export const axes = (
     xAxisLabel,
     yAxisLabel,
     xAxisLabelOffset = 40,
-    yAxisLabelOffset = 45,
+    yAxisLabelOffset = 50,
   }
 ) => {
   selection
@@ -49,7 +49,7 @@ export const axes = (
     .attr('alignment-baseline', 'hanging')
     .attr('text-anchor', 'middle')
     .attr('font-family', 'sans-serif')
-    .attr('font-size', "8vw")
+    .attr('font-size', "7vw")
     .text(xAxisLabel);
 
   selection
