@@ -49,7 +49,7 @@ export const axes = (
     .attr('alignment-baseline', 'hanging')
     .attr('text-anchor', 'middle')
     .attr('font-family', 'sans-serif')
-    .attr('font-size', "3vw")
+    .attr('font-size', "7vw")
     .text(xAxisLabel);
 
   selection
